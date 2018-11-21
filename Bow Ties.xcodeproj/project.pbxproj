@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9B450EA21A5D3A600C71998 /* Bowtie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B450E821A5D3A600C71998 /* Bowtie+CoreDataClass.swift */; };
+		D9B450EB21A5D3A600C71998 /* Bowtie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B450E921A5D3A600C71998 /* Bowtie+CoreDataProperties.swift */; };
+		D9B450ED21A5DA8B00C71998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA624911D6A54FA0011CF8F /* Main.storyboard */; };
+		D9B450EE21A5DA9100C71998 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB0E7191D6A55F100A48955 /* SampleData.plist */; };
+		D9B450F021A5DA9C00C71998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA624991D6A54FA0011CF8F /* LaunchScreen.storyboard */; };
 		FEA6248E1D6A54FA0011CF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6248D1D6A54FA0011CF8F /* AppDelegate.swift */; };
 		FEA624901D6A54FA0011CF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6248F1D6A54FA0011CF8F /* ViewController.swift */; };
-		FEA624931D6A54FA0011CF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA624911D6A54FA0011CF8F /* Main.storyboard */; };
 		FEA624961D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEA624941D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld */; };
-		FEA624981D6A54FA0011CF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA624971D6A54FA0011CF8F /* Assets.xcassets */; };
-		FEA6249B1D6A54FA0011CF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA624991D6A54FA0011CF8F /* LaunchScreen.storyboard */; };
 		FEA624A61D6A54FA0011CF8F /* Bow_TiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA624A51D6A54FA0011CF8F /* Bow_TiesUITests.swift */; };
-		FEB0E71A1D6A55F100A48955 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB0E7191D6A55F100A48955 /* SampleData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9B450E821A5D3A600C71998 /* Bowtie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D9B450E921A5D3A600C71998 /* Bowtie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FEA6248A1D6A54FA0011CF8F /* Bow Ties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bow Ties.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA6248D1D6A54FA0011CF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA6248F1D6A54FA0011CF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 		FEA6248C1D6A54FA0011CF8F /* Bow Ties */ = {
 			isa = PBXGroup;
 			children = (
+				D9B450E821A5D3A600C71998 /* Bowtie+CoreDataClass.swift */,
+				D9B450E921A5D3A600C71998 /* Bowtie+CoreDataProperties.swift */,
 				FEA6248D1D6A54FA0011CF8F /* AppDelegate.swift */,
 				FEA6248F1D6A54FA0011CF8F /* ViewController.swift */,
 				FEA624911D6A54FA0011CF8F /* Main.storyboard */,
@@ -113,7 +118,7 @@
 			buildPhases = (
 				FEA624861D6A54FA0011CF8F /* Sources */,
 				FEA624871D6A54FA0011CF8F /* Frameworks */,
-				FEA624881D6A54FA0011CF8F /* Resources */,
+				D9B450EC21A5DA7E00C71998 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,7 +154,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Razeware;
 				TargetAttributes = {
 					FEA624891D6A54FA0011CF8F = {
@@ -184,14 +189,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FEA624881D6A54FA0011CF8F /* Resources */ = {
+		D9B450EC21A5DA7E00C71998 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA6249B1D6A54FA0011CF8F /* LaunchScreen.storyboard in Resources */,
-				FEA624981D6A54FA0011CF8F /* Assets.xcassets in Resources */,
-				FEB0E71A1D6A55F100A48955 /* SampleData.plist in Resources */,
-				FEA624931D6A54FA0011CF8F /* Main.storyboard in Resources */,
+				D9B450F021A5DA9C00C71998 /* LaunchScreen.storyboard in Resources */,
+				D9B450EE21A5DA9100C71998 /* SampleData.plist in Resources */,
+				D9B450ED21A5DA8B00C71998 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +216,8 @@
 				FEA624961D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld in Sources */,
 				FEA624901D6A54FA0011CF8F /* ViewController.swift in Sources */,
 				FEA6248E1D6A54FA0011CF8F /* AppDelegate.swift in Sources */,
+				D9B450EA21A5D3A600C71998 /* Bowtie+CoreDataClass.swift in Sources */,
+				D9B450EB21A5D3A600C71998 /* Bowtie+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +268,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -312,15 +327,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
